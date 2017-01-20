@@ -1,0 +1,15 @@
+{
+  "name": "js-fake-tweet",
+  "version": "1.0.0",
+  "description": "Twitter like app using React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "js-fake-tweet"
+  },
+  "author": "Shakeel Bhamani",
+  "license": "ISC"
+}
