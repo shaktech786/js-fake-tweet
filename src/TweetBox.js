@@ -34,7 +34,7 @@ class TweetBox extends React.Component {
       <div>
         <textarea placeholder={placeholder} value={this.state.tweet} rows="5" cols="60" onChange={this.handleChange} />
         <div>
-          <p>{this.state.tweet.length}</p>
+          {this.state.tweet.length}
           <input type="button" value="Tweet" onClick={this.handleSubmit} />
         </div>
       </div>
