@@ -10,11 +10,10 @@
         <div id="root">
 
         </div>
+        <script type="text/javascript" src="TweetBox.js"></script>
         <script type="text/javascript">
-            var hw = React.createElement("div", null, "Hello World!");
-
             ReactDOM.render(
-                    hw,
+                    React.createElement(TweetBox, {placeholder: "What's up?"}),
                     document.getElementById("root")
             );
         </script>
