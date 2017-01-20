@@ -4,6 +4,6 @@ import TweetBox from "./TweetBox";
 import postTweet from "./postTweet";
 
 ReactDOM.render(
-  <TweetBox placeholder="What's up?" postTweet={postTweet}/>,
+  <TweetBox placeholder="Write a fweet!" postTweet={postTweet}/>,
   document.getElementById("root")
 );
