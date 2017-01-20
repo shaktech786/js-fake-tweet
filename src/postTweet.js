@@ -1,5 +1,7 @@
 import React from "react";
 
-export const postTweet = (tweet) => {
+const postTweet = (tweet) => {
   console.log(tweet);
 };
+
+export default postTweet;
